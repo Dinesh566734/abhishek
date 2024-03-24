@@ -1,0 +1,241 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <p>pRaRoZ</p>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#">HOME</a>
+                            <a href="#">ABOUT</a>
+                            <a href="#">SERVICE</a>
+                            <a href="#">DESIGN</a>
+                            <a href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class="srch" type="search" placeholder="type to search">
+                    <button class="btn">search</button>
+                </div>
+        </div>
+                <div class="content">
+                    <h1>Web design &</h1>
+                    <p><h1 class="c1">Development</h1></p>
+                    <h1>Course</h1>
+                    <h4>web Design is a specialisation of the design stream.They are also HTML<br> 
+                    ,CSS,WYSIWYG editing software mark up validators etc.., <br>
+                     to create design elements</h4>
+                    <button class="btn1">JOIN US</button>
+                    <div class="login">
+                        <button class="lgn">Login Here</button>
+                        <input class="frm1" type="search" placeholder="Enter Email Here">
+                        <input class="frm2" type="search" placeholder="Enter Password Here">
+                        <button class="lgn1">Login Here</button>
+                        <h4 class="ft">Don't Have an Account</h4><br>
+                        <a class="ft2" href="#"> Sign Up</a>
+                        <h5><p class="ft3">here</p></h5>
+                        <h5 class="ft4">Login With</h5>
+                        <div class="icon">
+                            <img class="img" src="facebook.png" alt="">
+                            <img class="img" src="instagram.png" alt="">
+                            <img class="img" src="twitter.png" alt="">
+                            <img class="img" src="search.png" alt="">
+                            <img class="img" src="skype.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    </div>
+</body>
+</html>
+
+<style>
+    *{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-image: url("tree.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+p{
+    color: orange;
+    font-size: 33;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+}
+ul li a:hover{
+    color: orange;
+}
+ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 50px;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+.search{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 40px;
+}
+.srch{
+    width: 200px;
+    height: 37px;
+    background-color: black;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16;
+}
+.btn{
+    width: 90px;
+    height: 37px;
+   background-color: orange;
+   color: white;
+   padding: 7px;
+   border-radius: 5px;
+   border: 1px solid white;
+   font-size: 16;
+}
+.content{
+    margin-top: 140px;
+    margin-left: 40px;
+}
+h1{
+    color: white;
+    font-size: 50;
+}
+.c1{
+    color: orange;
+}
+h4{
+    line-height: 30px;
+    color: white;
+}
+.btn1{
+    margin-top: 15px;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.login{
+    height: 430px;
+    width: 280px;
+    border-radius: 8px;
+    margin-left: 1200px;
+    margin-top: -390px;
+    display: inline-block;
+    justify-content: center;
+    background-color: black;
+}
+.lgn{
+    width: 200px;
+    height: 40px;
+    font-size: 20;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 38px;
+    background-color: white;
+    color: orange;
+    border: none;
+}
+.frm1{
+    color: white;
+    width:200px ;
+    height: 37px;
+    background-color: transparent;
+    margin-top: 17px;
+    margin-left: 38px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid orange;
+    border-left: none;
+    font-size: 18px;
+}
+.frm2{
+    color: white;
+    width:200px ;
+    height: 37px;
+    background-color: transparent;
+    margin-top: 17px;
+    margin-left: 38px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid orange;
+    border-left: none;
+    font-size: 18px;
+}
+.lgn1{
+    width: 200px;
+    height: 40px;
+    font-size: 20;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-left: 38px;
+    background-color: orange    ;
+    color: black;
+    border: none;
+}
+.ft{
+    margin-top: 24px;
+    margin-left: 55px;
+}
+.ft2{
+    margin-top: 20px;
+    margin-left: 85px;
+    text-decoration: none;
+    color: orange;
+}
+.ft3{
+    color: white;
+    font-size: 18px;
+    margin-top: -34px;
+    margin-left: 115px;
+}
+.ft4{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    margin-top: 20px;
+    height: 35px;
+    width: 35px;
+    filter: grayscale(100%);
+}
+.img:hover{
+    filter: grayscale(0%);
+    transition: 1.5s ;
+}
+</style>
